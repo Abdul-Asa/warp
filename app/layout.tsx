@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Particles from "./particles";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Particles
+        // className="absolute inset-0 -z-20 animate-fade-in"
+        // quantity={200}
+        // staticity={30}
+        // ease={30}
+        />
+      </body>
     </html>
   );
 }

@@ -1,0 +1,22 @@
+{
+  "files.exclude": {
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.vscode": true,
+    "**/.idea": true,
+    "**/package-lock.json": true,
+    "**/node_modules": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/target": true,
+    "**/.eslintrc.json": true,
+    "**/next-env.d.ts": true,
+    "**/next.config.*": true,
+    "**/postcss.config.*": true,
+    "**/.gitignore": true,
+    "**/components.json": true
+  }
+}
